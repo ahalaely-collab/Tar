@@ -1,0 +1,23 @@
+Round 16
+
+- Added advanced statistics tabs inside Social/Statistics:
+  - Players
+  - Alliances
+  - Heroes
+  - World
+  - Wonder
+  - News
+- Added ranking endpoints:
+  - ranking.getAllianceTop
+  - ranking.getHeroTop
+  - ranking.getWorldStats
+  - ranking.getWonderTop
+  - ranking.getNewsFeed
+- Added Trade Office support to market logic:
+  - 20% merchant capacity bonus per level
+  - market overview now returns tradeOfficeLevel and effective capacity
+  - new endpoint market.getTradeOfficeOverview
+- Added dedicated Trade Office page:
+  - /village/:villageId/trade-office
+- Linked Village Center slot 20 to Trade Office page
+- Linked Market page to Trade Office and surfaced office bonus in merchant status
